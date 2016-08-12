@@ -1,0 +1,32 @@
+{
+  "name": "codemods",
+  "version": "1.0.0",
+  "description": "[jscodeshift] codemod collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bseber/codemods.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/bseber/codemods/issues"
+  },
+  "homepage": "https://github.com/bseber/codemods#readme",
+  "dependencies": {
+    "jscodeshift": "^0.3.27"
+  },
+  "devDependencies": {
+    "jest": "^14.1.0"
+  },
+  "jest": {
+    "automock": false,
+    "testPathDirs": [
+      "transforms/jasmine/__tests__"
+    ]
+  }
+}
