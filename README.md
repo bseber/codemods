@@ -1,7 +1,10 @@
 # codemods
 
-[jscodeshift] codemod collection
+jscodeshift codemod collection
 
+## Tools
+* [jscodeshift]
+* [AST Explorer]
 
 ## Articles
 * [Effective JavaScript Codemods](https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb)
@@ -14,3 +17,4 @@
 
 
 [jscodeshift]: https://github.com/facebook/jscodeshift
+[AST Explorer]: https://astexplorer.net
